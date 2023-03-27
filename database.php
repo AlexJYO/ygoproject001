@@ -12,7 +12,7 @@
 		public function __construct()
 		{
 			$this->host = 'ygoprojectdl.mysql.database.azure.com';
-			$this->db = 'ygoprojectdl';
+			$this->db = 'dl';
 			$this->user = 'ygodl';
 			$this->password = 'Soledad387380Azure.';
 		}
