@@ -1,0 +1,144 @@
+#showCards_large {
+    
+    border: 2px solid white;
+}
+.cardImage img {
+    width: 95%;
+}
+.oneCard {
+    padding-left: 1rem;
+}
+.cardValue {
+    color: var(--color-text-second);
+}
+.cardAmount {
+    padding-top: 1rem;
+}
+
+.cardAmount span {
+    font-size: var(--font-text-sm);
+}
+.cardAmount button {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    text-align: center;
+}
+
+#showCards_large .row .col-2,
+#showCards_large .row .col-4 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#filterMenu {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 1px solid var(--color-title);
+    color: var(--color-text-first);
+}
+.card {
+    background-color: var(--color-second);
+    color: var(--color-first);
+    margin-top: 1.5rem;
+}
+#filterNameTitle {
+    width: 70%;
+}
+#filterType {
+    margin-left: 1.5rem;
+}
+#filterMonstroTypeC,
+#filterMonstroAtt,
+#filterMonstroType,
+#filterMonstroLev,
+#filterMonstroRar,
+#filterSpellCard,
+#filterTrapCard,
+#filterValueCard {
+    margin-top: 1.5rem;
+    padding-left: 2.5rem;
+    border-top: 2px solid var(--color-first);
+}
+
+#filterMonstroTypeC > div.form-check,
+#filterMonstroAtt > div.form-check,
+#filterMonstroType > div.form-check,
+#filterMonstroLev > div.form-check,
+#filterMonstroRar > div.form-check {
+    margin-left: -2.5rem;
+}
+#btnSearch {
+    margin: -0.2rem 0 0 0;
+    font-size: var(--font-text-sm);
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+}
+ul.paginationP {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.paginationP li {
+    display: inline;
+}
+
+ul.paginationP li a {
+    color: var(--color-text-first);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.paginationP li a.active {
+    background-color: #4caf50;
+    color: var(--color-first);
+}
+
+ul.paginationP li a:hover:not(.active) {
+    background-color: #ddd;
+    color: var(--color-first);
+}
+
+#pagPublic {
+    margin: 2rem 0 1rem 0;
+    border: 1px solid var(--color-title);
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+    text-align: center;
+}
+.cardValue span{
+    border: 1px solid var(--color-title);
+    padding: 0 2px 0 2px;
+    font-size: var(--font-text-xs);
+}
+.cardValue{
+    text-align: center;
+}
+#addCard{
+    
+    border: 1px solid var(--color-title);
+    color: var(--color-text-first);
+    padding: 0;
+}
+.line_right{
+    border-right: 1px solid var(--color-title);
+}
+#addC{
+    margin-top: 2rem;
+    color: var( --color-nav-text-active);
+}
+.addPlus{
+    margin: 0.5rem;
+    width: 1.5rem;
+    height: 2rem;
+    padding: 0;
+}
+.addSus{
+    margin: 0.5rem;
+    width: 1.5rem;
+    height: 2rem;
+    padding: 0;
+}
+footer{
+    background-color: var(--color-footer);
+    color: var(--color-first);
+    margin: 2rem 0 2rem 0;
+}

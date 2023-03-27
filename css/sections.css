@@ -1,0 +1,6 @@
+.section_title {
+    color: var(--color-nav-text);
+}
+.section_title.active {
+    color: var(--color-nav-text-active);
+}

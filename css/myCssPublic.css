@@ -1,0 +1,34 @@
+:root {
+    --color-nav: #0f8000;
+    --color-nav-text-active: aliceblue;
+    --color-nav-text: darkgrey;
+    --color-first: #14292c;
+    --color-title: #c2dfe4;
+    --color-text-second: #A8F6A1 ;
+    --color-second: #68a563;
+    --color-text-first: #c0eef5;
+    --color-footer: #17A589; 
+
+    --font-h3-size: 1.3rem;
+    --font-h4-size: 1.1rem;
+    --font-h5-size: 0.9rem;
+    --font-text-sm: 0.8rem;
+    --font-text-xs: 0.65rem;
+}
+
+body {
+    background-color: var(--color-first);
+    color: var(--color-nav-text);
+}
+.container.main {
+    margin-top: 4.5rem;
+}
+h3 {
+    font-size: var(--font-h3-size);
+}
+h4 {
+    font-size: var(--font-h4-size);
+}
+h5 {
+    font-size: var(--font-h5-size);
+}

@@ -1,0 +1,21 @@
+.navbar-title {
+    color: var(--color-title);
+}
+.navbar-icon {
+    width: 2rem;
+    height: 2rem;
+}
+.navbar-light {
+    background-color: var(--color-nav);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: var(--color-nav-text-active);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-nav-text);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-nav-text-active);
+}
