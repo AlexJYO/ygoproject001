@@ -32,7 +32,7 @@ searchCode.addEventListener('submit', async (e) => {
 
 
     const code = parseInt(codeData.value, 10);
-    const url = "php/getPointAdmin.php";
+    const url = "getPointAdmin.php";
     const responseDB = await requestHandle(url, { code });
 
     if (responseDB !== 0) {
@@ -53,7 +53,7 @@ cardName.addEventListener('submit', async (e) => {
     const titleCardValue = titleCard.value;
     if ((titleCardValue !== "" && titleCardValue.length > 2) || parseInt(titleCardValue, 10)) {
         titleCard.value = "";
-        const url = "php/searchName.php";
+        const url = "searchName.php";
         const responseDB = await requestHandle(url, { name: titleCardValue, code: point.code });
         if (responseDB['numEle'] > 0) {
             datos = responseDB;
@@ -391,7 +391,7 @@ btnSearch.addEventListener("click", async (e) => {
             titleCard.value = "";
 
             //Codigo para hacer la solicitud a la DB
-            const url = "php/searchPropery.php";
+            const url = "searchPropery.php";
             const responseDB = await requestHandle(url, filterData);
             if (responseDB['numEle'] > 0) {
                 datos = responseDB;
