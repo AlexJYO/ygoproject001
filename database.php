@@ -11,10 +11,10 @@
 		
 		public function __construct()
 		{
-			$this->host = 'fdb1030.awardspace.net';
-			$this->db = '4286493_dl';
-			$this->user = '4286493_dl';
-			$this->password = 'Soledad387380YGOP.';
+			$this->host = 'ygoprojectdl.mysql.database.azure.com';
+			$this->db = 'ygoprojectdl';
+			$this->user = 'ygodl';
+			$this->password = 'Soledad387380Azure.';
 		}
 		function connect(){
 			try{
